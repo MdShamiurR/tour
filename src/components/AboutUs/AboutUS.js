@@ -13,15 +13,15 @@ const AboutUS = () => {
 
 				<ul>
 					<li>
-					Booking.com Holidays is a fast growing Tours & Travel Planner in Dhaka Bangladesh.
+						TourBD Holidays is a fast growing Tours & Travel Planner in Dhaka Bangladesh.
 
-We started our journey in 2009 as an IT Company known as UNITECH BD SOFTWARE. In 2018 we start our travel agency Kite Bangladesh Holidays.
+						We started our journey in 2009 as an IT Company known as UNITECH BD SOFTWARE. In 2018 we start our travel agency Kite Bangladesh Holidays.
 
-We are 100% local tour operator in Bangladesh. We always operate all tours by our own guides.
+						We are 100% local tour operator in Bangladesh. We always operate all tours by our own guides.
 
-We don’t just offer tours and travel services but also provide reliable and hassle free travel planning facilities.
+						We don’t just offer tours and travel services but also provide reliable and hassle free travel planning facilities.
 
-If you are planning to explore THE BANGLADESH, then we are here to Keep SURPRISING YOU!! We always make the tour comfortable & hassle free.
+						If you are planning to explore THE BANGLADESH, then we are here to Keep SURPRISING YOU!! We always make the tour comfortable & hassle free.
 
 
 					</li>
@@ -29,7 +29,7 @@ If you are planning to explore THE BANGLADESH, then we are here to Keep SURPRISI
 
 
 			</Container>
-			
+
 		</div>
 	);
 };

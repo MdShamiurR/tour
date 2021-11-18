@@ -4,14 +4,14 @@ import { NavLink } from 'react-router-dom';
 import useAuth from '../../hooks/useAuth';
 
 const Header = () => {
-	const {user, logOut} = useAuth();
+	const { user, logOut } = useAuth();
 	return (
-		
+
 
 		<div className="d-flex justify-content-between align-items-center head-container container mb-3   collapseOnSelect expand=lg">
 			<div>
 				<h2 className="text-info">
-				Booking  <small>.com</small>
+					Tour<small>BD</small>
 				</h2>
 			</div>
 			<div className="mx-5 collapseOnSelect expand=lg">
@@ -55,7 +55,7 @@ const Header = () => {
 				>
 					ManageServices
 				</NavLink>
-				
+
 				<NavLink
 					className="mx-3 text-decoration-none"
 					to="/about"
@@ -67,15 +67,15 @@ const Header = () => {
 					Aboutus
 				</NavLink>
 				{user.email && <span style={{ color: 'white' }}>Hello {user.displayName} </span>}
-                {
-                    user.email ?
-                        <button onClick={logOut}>log out</button>
-                        :
-                        <NavLink
-						className="mx-5 text-decoration-none"
-						 to="/login">Login</NavLink>}
+				{
+					user.email ?
+						<button onClick={logOut}>log out</button>
+						:
+						<NavLink
+							className="mx-5 text-decoration-none"
+							to="/login">Login</NavLink>}
 
-				
+
 			</div>
 		</div>
 	);
